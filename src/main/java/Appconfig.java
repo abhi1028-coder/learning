@@ -6,6 +6,7 @@ public class Appconfig {
 
         Sample smp = new Sample();
         smp.sample2(10,20,30);
+        smp.sample3(20, 30, 10);
 
     }
 }
