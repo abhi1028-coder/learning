@@ -10,4 +10,23 @@ public class Sample {
 
     }
 
+    void sample3(int a, int b, int c){
+
+        if ( a > b){
+            System.out.println("a is greater than b");
+        }
+        else if (b > c) {
+            System.out.println("b is greater than c");
+        }
+        else if ( c > a){
+
+            System.out.println("c is greater than a");
+
+        }
+        else {
+            System.out.println("not the Correct logic");
+        }
+
+    }
+
 }
